@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "642071144e2014c6ee591956"
+  },
+  "empId": 233,
+  "name": "sumit",
+  "phoneNumber": 999999999,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642071334e2014c6ee591958"
+  },
+  "empId": 234,
+  "name": "amit",
+  "phoneNumber": {
+    "$numberLong": "9999000000"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6420714e4e2014c6ee59195a"
+  },
+  "empId": 235,
+  "name": "kapil",
+  "phoneNumber": {
+    "$numberLong": "9999000034"
+  },
+  "__v": 0
+}]

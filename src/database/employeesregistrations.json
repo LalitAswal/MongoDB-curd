@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "64206df2c75890ea46da8b16"
+  },
+  "empId": 233,
+  "name": "sumit",
+  "phoneNumber": 999999999,
+  "password": "sumit1234",
+  "email": "sumit@khiladiadda.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64206e29c75890ea46da8b18"
+  },
+  "empId": 234,
+  "name": "amit ",
+  "phoneNumber": {
+    "$numberLong": "9999000000"
+  },
+  "password": "amit",
+  "email": "amit@khiladiadda.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64206e5b4e2014c6ee591952"
+  },
+  "empId": 235,
+  "name": "kapil ",
+  "phoneNumber": {
+    "$numberLong": "9999000034"
+  },
+  "password": "kapil",
+  "email": "kapil@khiladiadda.com",
+  "__v": 0
+}]
