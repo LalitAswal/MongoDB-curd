@@ -6,10 +6,10 @@ let changeDetail = async(req, res) =>{
         let { phoneNumber} = req.body;
         let data = await changePhNo(empId, phoneNumber);
 
-        res.status(201).send(data);
+        return  res.status(201).send(data);
 
     } catch (error) {
-        res.status(500).send('internal server error');
+        return  res.status(500).send('internal server error');
         
     }
 }

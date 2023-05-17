@@ -6,13 +6,13 @@ let deleteEmployee = async(req, res)=>{
         let { empId } = req.params;
         console.log('empId', empId)
         let data = await  deleteEmployeeById(empId);
-        res.status(200).send(data);
+        return  res.status(200).send(data);
 
     } catch (error) {
         if(error === `empId doesn't not exist`){
             res.status(404).send(error);
         }
-        res.status(500).send("internal server error");
+        return res.status(500).send("internal server error");
 
         
     }

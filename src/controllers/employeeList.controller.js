@@ -5,10 +5,10 @@ let employees = async(req, res) =>{
     try {
 
         let data = await employeeList();
-        res.status(200).send(data);
+        return res.status(200).send(data);
         
     } catch (error) {
-        res.status(500).send("internal server error");
+        return  res.status(500).send("internal server error");
         
     }
 
